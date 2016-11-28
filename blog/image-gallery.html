@@ -10,57 +10,52 @@
     <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="blog.html">Blog<span class="new badge"></span></a></li>
-    <li><a href="gallery.html">Image Gallery<span class="new badge"></span></a></li>
-</ul>
   <body>
-<div class="navbar-fixed">
-    <nav class="blue-grey" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="../index.html" class="brand-logo">Droon99.com</a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="!#" onclick="goBack()"><i class="material-icons">fast_rewind</i></a></li>
-          <li><a href="./WebDesign/index.html">Web Design Sites</a></li>
+    <div class="navbar-fixed">
+        <nav class="blue-grey" role="navigation">
+          <div class="nav-wrapper container"><a id="logo-container" href="../index.html" class="brand-logo">Droon99.com</a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="!#" onclick="goBack()"><i class="material-icons">fast_rewind</i></a></li>
+              <li><a href="../WebDesign/index.html">Web Design Sites</a></li>
+              <li><a href="../dnd/index.html">DnD Stuff</a></li>
+            </ul>
+
+
+            <script>
+         function goBack() {
+             window.history.back();
+         }
+         </script>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+          </div>
+        </nav>
+        <ul id="nav-mobile" class="side-nav">
+          <li><a href="../WebDesign/index.html">Web Design Sites</a></li>
           <li><a href="../dnd/index.html">DnD Stuff</a></li>
-          <li><a class="dropdown-button" href="!#" data-activates='dropdown1'>Blog</a></li>
+          <li><a href="!#" onclick="goBack()"><i class="material-icons">fast_rewind</i></a></li>
         </ul>
         <script>
      function goBack() {
          window.history.back();
      }
      </script>
-
-        <ul id="nav-mobile" class="side-nav">
-          <li><a href="!#" onclick="goBack()"><i class="material-icons">fast_rewind</i></a></li>
-          <li><a href="./WebDesign/index.html">Web Design Sites</a></li>
-          <li><a href="./dnd/index.html">DnD Stuff</a></li>
-          <li><a class="dropdown-button" href="!#" data-activates='dropdown1'>Blog</a></li>
-        </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+    <div class="row">
+  <div class="col s12 m7">
+    <div class="card">
+      <div class="card-image">
+        <img src="media/PHB.jpg">
+        <span class="card-title">DnD 5e Player's Handbook</span>
       </div>
-    </nav>
+      <div class="card-content">
+        <p>The Cover of the DnD 5e Player's Handbook by Wizards of The Coast © 1995-2016 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.</p>
+      </div>
+      <div class="card-action">
+        <a href="http://dnd.wizards.com/products/tabletop-games/rpg-products/rpg_playershandbook">WotC</a>
+      </div>
+    </div>
+  </div>
 </div>
-    <div class="section no-pad-bot teal" id="index-banner">
-      <div class="container">
-        <div class="row">
-              <div class="col s12">
-                <div class="card">
-                  <div class="card-content black-text">
-                    <div class="row center">
-                    <span class="card-title"><h1>Droon/Fass's Blog</h1></span>
-                      <h5 class="header col s12 light">Well this is New!</h5>
-                        <p class="flow-text"><h6>
-                        This
-                    </h6></p>
-                    </div>
-                  <div class="card-action">
-                    <a href="http://twitter.com/VMFSU">D&amp;D Twitter</a>
-                    <a href="http://twitter.com/droon99">Code Twitter</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-           </div>
   </body>
   <footer class="page-footer teal lighten-2">
     <div class="container">
