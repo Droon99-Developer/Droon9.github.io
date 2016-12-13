@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
 <channel>
-<link>http://www.YourSite.com</link>
+<link>http://droon99.com</link>
 <language>en-us</language>
 <copyright>&#xA9;2016</copyright>
 <webMaster>droon99@droon99.com (Connor Black)</webMaster>
 <managingEditor>droon99@droon99.com (Connor Black))</managingEditor>
 <image>
-<url>Droon99-Developer.github.io/logo.png</url>
-<title>A Spirally o</title>
+<url>http://droon99.com/logo.png</url>
+<title>A D with a 9 in it</title>
 <link>http://www.Droon99-Developer.github.io</link>
 </image>
 <itunes:owner>
@@ -18,17 +18,17 @@
 <itunes:category text="Entertainment">
 <itunes:category text="Conversation" />
 </itunes:category>
-<itunes:keywords>Entertainment, Conversation, Psychology</itunes:keywords>
+<itunes:keywords>Entertainment, Conversation</itunes:keywords>
 <itunes:explicit>no</itunes:explicit>
-<itunes:image href="http://www.YourSite.com/ImageSize300X300.jpg" />
-<atom:link href="http://www.YourSite.com/feed.xml" rel="self" type="application/rss+xml" />
-<pubDate>Sun, 01 Jan 2012 00:00:00 EST</pubDate>
-<title>Verbose title of the podcast</title>
-<itunes:author>College, school, or department owning the podcast</itunes:author>
-<description>Verbose description of the podcast.</description>
-<itunes:summary>Duplicate of above verbose description.</itunes:summary>
-<itunes:subtitle>Short description of the podcast - 255 character max.</itunes:subtitle>
-<lastBuildDate>Thu, 02 Feb 2012 00:00:00 EST</lastBuildDate>
+<itunes:image href="http://droon99.com/logo300X300.png" />
+<atom:link href="http://www.droon99.com/podcast.xml" rel="self" type="application/rss+xml" />
+<pubDate>Sun, 25 December 2016 12:00:00 EST</pubDate>
+<title>Soon It Will be...</title>
+<itunes:author>Droon99 (Connor Black)</itunes:author>
+<description>We talk about what this podcast is, get into discussion of some stuff I enjoy, and accurately describe the turnaround time for one of these suckers</description>
+<itunes:summary>We talk about what this podcast is, get into discussion of some stuff I enjoy, and accurately describe the turnaround time for one of these suckers</itunes:summary>
+<itunes:subtitle>We talk about what this podcast is, get into discussion of some stuff I enjoy, and accurately describe the turnaround time for one of these suckers</itunes:subtitle>
+<lastBuildDate>Sun, 25 December 2016 12:00:00 EST</lastBuildDate>
 <item>
 <title>Verbose title of the episode</title>
 <description>Verbose description of the episode.</description>
