@@ -13,7 +13,7 @@
 .container {
     padding: 2px 16px;
 }
-.fixed{
+ul.fixed{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,10 +23,10 @@
   top:0;
   width:100%;
 }
-.menu{
+li.menu{
   float:left;
 }
-li a{
+li.menu a{
   display:block;
   color: white;
   padding: 16px;
