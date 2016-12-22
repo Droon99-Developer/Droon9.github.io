@@ -13,3 +13,26 @@
 .container {
     padding: 2px 16px;
 }
+ul.fixed{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #607d8b;
+  position: fixed;
+  top:0;
+  width:100%;
+}
+li.menu{
+  float:left;
+}
+li.menu a{
+  display:block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+
+}
+.main{
+  margin-top: 30px;
+}
