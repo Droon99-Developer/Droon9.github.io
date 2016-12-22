@@ -44,6 +44,9 @@ transition: 0.3s;
 li.title{
 display:block;
   color: white;
-  padding: 32px;
+  padding-right: 32px;
+  padding-top:16px;
+  padding-left:16px;
+  padding-bottom:16px;
   text-decoration: none;
 }
