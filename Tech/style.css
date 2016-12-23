@@ -1,5 +1,6 @@
 .card {
     /* Add shadows to create the "card" effect */
+    background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
@@ -39,14 +40,52 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 }
 .main{
-  margin-top: 30px;
+  margin-top: 50px;
 }
 li.title{
-display:block;
+  display:block;
   color: white;
   padding-right: 32px;
   padding-top:16px;
   padding-left:16px;
   padding-bottom:16px;
   text-decoration: none;
+}
+i.here{
+  display:block;
+  color: white;
+  padding:16px;
+  text-decoration: none;
+  background-color: #37474F;
+  font-style: normal;
+}
+body{
+  background-color: #BDBDBD;
+  margin: 0 0 100px;
+  padding: 25px;
+}
+i.spacerwidth{
+  padding-left: 50px;
+  padding-right:50px;
+}
+i.spacerheight{
+  padding-top:20px;
+}
+footer{
+  background-color: white;
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     height: 100px;
+     width: 100%;
+     overflow:hidden;
+}
+html{
+  position: relative;
+   min-height: 100%;
+}
+p.footersiteinfo{
+  padding-left: 50px;
+  padding-right:50px;
+  text-align: center;
 }
