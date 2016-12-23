@@ -89,3 +89,21 @@ p.footersiteinfo{
   padding-right:50px;
   text-align: center;
 }
+h2.main-title{
+  text-align: center;
+  padding-bottom: 5px;
+}
+.spacingfix{
+  padding-right: 32px;
+
+  padding-left:32px;
+
+}
+img.right {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+img.left {
+    float: left;
+    margin: 0 0 10px 10px;
+}
